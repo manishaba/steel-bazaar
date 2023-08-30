@@ -500,3 +500,11 @@ list-style: none;
     text-decoration: none;
     color: var(--white);
 }
+
+/* media query  */
+@media screen and (max-width:768px) {
+    .market-card {
+        width: calc(100% / 2);
+    }
+
+}
