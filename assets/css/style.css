@@ -268,7 +268,7 @@ line-height: 25.6px;
 /* feature section css starts here  */
 #features {
     padding: 63px 0px;
-    height: 70rem;
+    /* height: 70rem; */
     /* background-color: red; */
 }
 
@@ -502,9 +502,9 @@ list-style: none;
 }
 
 /* media query  */
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
     .market-card {
         width: calc(100% / 2);
     }
 
-}
+} */
