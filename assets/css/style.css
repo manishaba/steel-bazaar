@@ -1,0 +1,502 @@
+body {
+    font-family: 'Roboto';
+}
+
+* {
+    --white: #fff;
+    --primary-white: #F1F1F1;
+    --secondary-white: #F0F0F0;
+    --off-white: #F0F4FF;
+    --clear-white: #F4F7FF;
+    --primary-color: #FF5A05;
+    --secondary-orange: #FD6202;
+    --primary-blue: #49499A;
+    --secondary-blue: #1D3679;
+    --dark-blue: #023047;
+    --primary-grey: #5B5B5B;
+    --secondary-grey: #747474;
+    --off-grey: #637381;
+    --dark-grey: #525252;
+    --shadow-color: #00000014;
+    --green: #21BE14;
+    --desktop-font: 16px;
+    --tablet-font: 14px;
+    --mobile-font: 12px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: var(--desktop-font);
+}
+
+@media(max-width:1199px) {
+    html {
+        font-size: var(--tablet-font);
+    }
+}
+
+@media(max-width:767px) {
+    html {
+        font-size: var(--mobile-font);
+    }
+}
+
+/* .container {
+    max-width: 1171px;
+    margin: 40px 0px;
+    margin: 0 auto;
+    background-color: skyblue;
+} */
+h1 {
+    color: var(--white);
+    font-size: 55px;
+    font-weight: 700;
+}
+
+/* banner css starts here  */
+.navbar {
+    display: flex;
+    gap: 117px;
+    padding: 20px 0px !important;
+}
+
+.navbar-items ul {
+    display: flex;
+    gap: 15px;
+    margin: 0;
+}
+
+.navbar-items ul li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar-items ul li a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.start-btn {}
+
+.start-btn a {
+    text-decoration: none;
+    color: var(--white);
+    padding: 15px 30px;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+}
+
+/* banner css starts here  */
+.banner {
+    background: linear-gradient(243deg, #001DFA 0%, #8996FF 100%);
+}
+
+.banner-feature img {
+    max-width: 100%;
+}
+
+.banner-main {
+    padding: 50px 0px;
+}
+
+.banner-content {
+    margin: 25px 0px;
+}
+
+.banner-content h3 {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.banner-content h1 {
+    color: var(--white);
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.banner-content p {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.banner-btn {
+    margin: 25px 0px;
+}
+
+
+/* about us section css starts here  */
+#about-us {
+    padding: 110px 0px;
+}
+
+.about-content h2 {
+    color: var(--primary-color);
+    font-size: 49px;
+    font-weight: 700;
+}
+
+.about-content p {
+    color: #2F4858;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about-review img {
+    max-width: 100%;
+}
+
+.technology {
+    margin-top: 90px;
+}
+
+.technology-content h2 {
+    color: #4252CF;
+    font-size: 49px;
+    font-weight: 700;
+}
+
+.technology-review {}
+
+.technology-review img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.about-content-wrapper {
+    margin-bottom: 90px;
+}
+
+
+/* vision section css starts here  */
+#vision {
+    background-color: #FFF9F5;
+    padding: 70px 0px;
+}
+
+.vision-content h4 {
+    color: #FF5A05;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.vision-content h3 {
+    color: #4252CF;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.vision-content p {
+    color: #05000B;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.vision-card-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-wrap {
+    border-radius: 10px;
+    border: 2px solid rgba(66, 82, 207, 0.10);
+    background: #FFF;
+    padding: 15px 20px;
+
+}
+.card-wrap h5 {
+    margin: 5px 0px;
+}
+.card-wrap p {
+    color: #747474;
+font-size: 16px;
+font-weight: 500;
+line-height: 25.6px;
+}
+
+.card-wrap:hover {
+    background-color: #001DFA;
+    color: var(--white);
+    border: none;
+}
+
+.vision-card {
+    padding: 10px;
+    width: calc(100% / 2);
+}
+
+/* marketplace section css starts here  */
+#marketplace {
+    padding: 100px 0px 50px 0px;
+}
+
+.marketplace h3 {
+    color: #FF5A05;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.market-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+.market-card {
+    padding: 10px;
+    width: calc(100% / 4);
+}
+
+.card-wrap-m {
+    border-radius: 10px;
+    border: 2px solid rgba(66, 82, 207, 0.10);
+    background: #FFF;
+    padding: 24px;
+}
+
+.card-wrap-m:hover {
+    color: var(--white);
+    background-color: #001DFA;
+}
+
+/* feature section css starts here  */
+#features {
+    padding: 63px 0px;
+    height: 70rem;
+    /* background-color: red; */
+}
+
+.features {
+    position: relative;
+
+}
+
+.features-main {
+    background-color: #EBEDFF;
+    padding: 40px 0px;
+
+}
+
+.features-wrapper {
+    position: relative;
+    height: 300px;
+
+}
+
+.features-wrapper h3 {
+    color: #4252CF;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.features-card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.feature-card {
+    padding: 10px 17px;
+}
+
+.card-wrap-f {
+    border-radius: 10px;
+    border: 1px solid rgba(31, 55, 255, 0.10);
+    background: #FFF;
+    padding: 30px;
+    position: relative;
+}
+
+.card-features {
+    margin-top: 75px;
+}
+
+.card-features p::before {
+    content: url(../images/check-mark.svg);
+    position: relative;
+    right: 8px;
+    top: 6px;
+}
+
+.card-top {
+    position: absolute;
+    top: 0px;
+    left: 72px;
+    right: 0;
+}
+
+.inventory {
+    margin-top: 250px;
+}
+
+.inventory-content h4 {
+    color: #4252CF;
+    font-size: 49px;
+    font-weight: 700;
+}
+
+.inventory-preview img {
+    max-width: 100%;
+}
+
+.inventory-features {
+    margin-top: 40px;
+}
+
+.inventiry-features p {
+    color: #05000B;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.inventory-features p::before {
+    content: url(../images/check-circle.png);
+    position: relative;
+    right: 8px;
+    top: 6px;
+}
+
+/* supply section css start here  */
+.supply-wrapper {
+    padding: 50px 0px;
+}
+
+.supply-wrapper h2 {
+    color: #FF5A05;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 30px 0px 50px 0px;
+    padding: 0px 135px;
+    line-height: 57px;
+}
+
+.supply-features {
+    margin: 90px 0px !important;
+}
+
+.supply-card-wrapper {
+    border-radius: 10px;
+    border: 2px solid rgba(66, 82, 207, 0.10);
+    background: #FFF;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+.supply-card-wrapper h4 {
+    color: #4252CF;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0px 85px;
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+
+.supply-card-wrapper p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+/* newsletter section css starts here  */
+#newsletter {
+    margin-bottom: 80px;
+}
+.newsletter-wrapper {
+    background-color: #FDEEE7;
+    padding: 65px 0px;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.newsletter-wrapper h4 {
+    color: #FF5A05;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.newsletter-wrapper h3 {
+    color: #05000B;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 50px;
+    padding: 0px 260px;
+}
+.email-address {
+    border: 1px solid lightgray;
+    max-width: 100%;
+    padding: 10px 20px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 4px;
+
+}
+.input-type {
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+}
+.input-type:active {
+    border: none !important;
+}
+.email-address a {
+border-radius: 4px;
+background: #FF5A05;
+color: var(--white);
+font-size: 16px;
+font-weight: 500;
+text-decoration: none;
+padding: 5px 15px;
+}
+
+/* footer section css starts here  */
+#footer {
+    background-color: #000848;
+    margin-top: 80px;
+}
+.footer-main  {
+}
+.footer-wrapper {
+    padding: 100px 0px;
+    color: var(--white);
+}
+.footer-content h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.footer-content ul {
+    padding: 0;
+}
+.footer-content ul li {
+font-size: 16px;
+font-weight: 400;
+line-height:25.6px;
+list-style: none;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: var(--white);
+}
