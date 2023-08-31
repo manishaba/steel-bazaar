@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto';
+    font-family: 'inter';
 }
 
 * {
@@ -51,26 +51,26 @@ html {
 } */
 h1 {
     color: var(--white);
-    font-size: 55px;
+    font-size: 3.438rem;
     font-weight: 700;
 }
 
 /* banner css starts here  */
 .navbar {
     display: flex;
-    gap: 117px;
-    padding: 20px 0px !important;
+    gap: 7.313rem;
+    padding: 1.25rem 0px !important;
 }
 
 .navbar-items ul {
     display: flex;
-    gap: 15px;
+    gap: 0.938rem;
     margin: 0;
 }
 
 .navbar-items ul li {
     list-style: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 
@@ -84,9 +84,9 @@ h1 {
 .start-btn a {
     text-decoration: none;
     color: var(--white);
-    padding: 15px 30px;
+    padding: 0.938rem 1.875rem;
     background-color: var(--primary-color);
-    border-radius: 4px;
+    border-radius: 0.25rem;
 }
 
 /* banner css starts here  */
@@ -99,51 +99,51 @@ h1 {
 }
 
 .banner-main {
-    padding: 50px 0px;
+    padding: 3.125rem 0px;
 }
 
 .banner-content {
-    margin: 25px 0px;
+    margin: 1.563rem 0px;
 }
 
 .banner-content h3 {
     color: var(--white);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     text-transform: uppercase;
 }
 
 .banner-content h1 {
     color: var(--white);
-    font-size: 55px;
+    font-size: 3.438rem;
     font-weight: 700;
 }
 
 .banner-content p {
     color: var(--white);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
 .banner-btn {
-    margin: 25px 0px;
+    margin: 1.563rem 0px;
 }
 
 
 /* about us section css starts here  */
 #about-us {
-    padding: 110px 0px;
+    padding: 6.875rem 0px;
 }
 
 .about-content h2 {
     color: var(--primary-color);
-    font-size: 49px;
+    font-size: 3.063;
     font-weight: 700;
 }
 
 .about-content p {
     color: #2F4858;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -157,7 +157,7 @@ h1 {
 
 .technology-content h2 {
     color: #4252CF;
-    font-size: 49px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -181,19 +181,19 @@ h1 {
 
 .vision-content h4 {
     color: #FF5A05;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 
 .vision-content h3 {
     color: #4252CF;
-    font-size: 31px;
+    font-size: 1.938rem;
     font-weight: 700;
 }
 
 .vision-content p {
     color: #05000B;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -203,61 +203,60 @@ h1 {
 }
 
 .card-wrap {
-    border-radius: 10px;
+    border-radius: 0.625rem;
     border: 2px solid rgba(66, 82, 207, 0.10);
     background: #FFF;
-    padding: 15px 20px;
+    padding: 0.938rem 1.25rem;
 
 }
 .card-wrap h5 {
-    margin: 5px 0px;
+    margin: 0.313rem 0px;
 }
 .card-wrap p {
-    color: #747474;
-font-size: 16px;
+    /* color: #747474; */
+font-size: 1rem;
 font-weight: 500;
-line-height: 25.6px;
+line-height: 1.6rem;
 }
 
 .card-wrap:hover {
     background-color: #001DFA;
-    color: var(--white);
+    color: var(--white) !important;
     border: none;
 }
-
 .vision-card {
-    padding: 10px;
+    padding: 0.625rem;
     width: calc(100% / 2);
 }
 
 /* marketplace section css starts here  */
 #marketplace {
-    padding: 100px 0px 50px 0px;
+    padding: 6.25rem 0px 50px 0px;
 }
 
 .marketplace h3 {
     color: #FF5A05;
     text-align: center;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
 .market-card-wrapper {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 
 .market-card {
-    padding: 10px;
-    width: calc(100% / 4);
+    padding: 0.625rem;
+    /* width: calc(100% / 4); */
 }
 
 .card-wrap-m {
-    border-radius: 10px;
+    border-radius: 0.625rem;
     border: 2px solid rgba(66, 82, 207, 0.10);
     background: #FFF;
-    padding: 24px;
+    padding: 1.5rem;
 }
 
 .card-wrap-m:hover {
@@ -292,7 +291,7 @@ line-height: 25.6px;
 .features-wrapper h3 {
     color: #4252CF;
     text-align: center;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 50px;
 }
@@ -307,14 +306,14 @@ line-height: 25.6px;
 }
 
 .feature-card {
-    padding: 10px 17px;
+    padding: 0.625rem 17px;
 }
 
 .card-wrap-f {
-    border-radius: 10px;
+    border-radius: 0.625rem;
     border: 1px solid rgba(31, 55, 255, 0.10);
     background: #FFF;
-    padding: 30px;
+    padding: 1.875rem;
     position: relative;
 }
 
@@ -332,7 +331,7 @@ line-height: 25.6px;
 .card-top {
     position: absolute;
     top: 0px;
-    left: 72px;
+    left: 4.5rem;
     right: 0;
 }
 
@@ -342,7 +341,7 @@ line-height: 25.6px;
 
 .inventory-content h4 {
     color: #4252CF;
-    font-size: 49px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -356,7 +355,7 @@ line-height: 25.6px;
 
 .inventiry-features p {
     color: #05000B;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 
@@ -375,11 +374,11 @@ line-height: 25.6px;
 .supply-wrapper h2 {
     color: #FF5A05;
     text-align: center;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     margin: 30px 0px 50px 0px;
-    padding: 0px 135px;
-    line-height: 57px;
+    padding: 0px 8.438rem;
+    line-height: 3.563rem;
 }
 
 .supply-features {
@@ -387,27 +386,27 @@ line-height: 25.6px;
 }
 
 .supply-card-wrapper {
-    border-radius: 10px;
+    border-radius: 0.625rem;
     border: 2px solid rgba(66, 82, 207, 0.10);
     background: #FFF;
-    padding: 25px 15px;
+    padding: 1.563rem 0.938rem;
     text-align: center;
 }
 
 .supply-card-wrapper h4 {
     color: #4252CF;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
-    padding: 0px 85px;
+    padding: 0rem 5.313rem;
     margin-bottom: 30px;
-    line-height: 28px;
+    line-height: 1.75rem;
 }
 
 .supply-card-wrapper p {
     color: #000;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 19px;
+    line-height: 1.188rem;
 }
 
 /* newsletter section css starts here  */
@@ -416,7 +415,7 @@ line-height: 25.6px;
 }
 .newsletter-wrapper {
     background-color: #FDEEE7;
-    padding: 65px 0px;
+    padding: 4.063rem 0px;
     border-radius: 30px;
     text-align: center;
     align-items: center;
@@ -427,47 +426,47 @@ line-height: 25.6px;
 
 .newsletter-wrapper h4 {
     color: #FF5A05;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
-    line-height: 32px;
-    margin-bottom: 10px;
+    line-height: 2rem;
+    margin-bottom: 0.625rem;
     text-transform: capitalize;
 }
 
 .newsletter-wrapper h3 {
     color: #05000B;
-    font-size: 39px;
+    font-size: 2.438rem;
     font-weight: 600;
-    line-height: 50px;
-    padding: 0px 260px;
+    line-height: 3.125rem;
+    padding: 0px 16.25rem;
 }
 .email-address {
     border: 1px solid lightgray;
     max-width: 100%;
-    padding: 10px 20px;
-    width: 300px;
+    padding: 0.625rem 1.25rem;
+    width: 18.75rem;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    border-radius: 4px;
+    margin-top: 1.25rem;
+    border-radius: 0.25rem;
 
 }
 .input-type {
     border: none;
     background-color: transparent;
-    padding: 5px;
+    padding: 0.313rem;
 }
 .input-type:active {
     border: none !important;
 }
 .email-address a {
-border-radius: 4px;
+border-radius: 0.25rem;
 background: #FF5A05;
 color: var(--white);
-font-size: 16px;
+font-size: 1rem;
 font-weight: 500;
 text-decoration: none;
-padding: 5px 15px;
+padding: 0.313rem 0.938rem;
 }
 
 /* footer section css starts here  */
@@ -478,21 +477,21 @@ padding: 5px 15px;
 .footer-main  {
 }
 .footer-wrapper {
-    padding: 100px 0px;
+    padding: 6.25rem 0px;
     color: var(--white);
 }
 .footer-content h4 {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 2rem;
 }
 .footer-content ul {
     padding: 0;
 }
 .footer-content ul li {
-font-size: 16px;
+font-size: 1rem;
 font-weight: 400;
-line-height:25.6px;
+line-height: 1.6rem;
 list-style: none;
 }
 
@@ -506,5 +505,15 @@ list-style: none;
     .market-card {
         width: calc(100% / 2);
     }
+}
 
+@media screen and (max-width: 990px) {
+    .market-card {
+        width: calc(100% / 3);
+    }
+}
+@media screen and (max-width: 480px) {
+    .market-card {
+        width: calc(100%);
+    }
 } */
