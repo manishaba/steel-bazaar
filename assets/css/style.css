@@ -81,8 +81,13 @@ h1 {
     text-decoration: none;
     color: var(--white);
 }
+.navbar-nav {
+    margin: 0px 100px !important;
+}
 
-.start-btn {}
+.start-btn {
+
+}
 
 .start-btn a {
     text-decoration: none;
@@ -91,7 +96,9 @@ h1 {
     background-color: var(--primary-color);
     border-radius: 0.25rem;
 }
-
+.navbar-brand img {
+    max-width: 100%;
+}
 /* banner css starts here  */
 #banner {
     background: linear-gradient(243deg, #001DFA 0%, #8996FF 100%);
@@ -395,7 +402,7 @@ h1 {
     text-align: center;
     font-size: 3rem;
     font-weight: 700;
-    margin: 30px 0px 50px 0px;
+    margin: 1.875rem 0 3.125rem 0;
     padding: 0px 8.438rem;
     line-height: 3.563rem;
 }
@@ -460,7 +467,7 @@ h1 {
     font-size: 2.438rem;
     font-weight: 600;
     line-height: 3.125rem;
-    padding: 0px 16.25rem;
+    /* padding: 0px 16.25rem; */
 }
 
 .email-address {
@@ -499,6 +506,10 @@ h1 {
 #footer {
     background-color: #000848;
     margin-top: 80px;
+    background-image: url(../images/Rectangle\ 79.png);
+    /* background-image: url(../images/Rectangle\ 80.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .footer-main {}
@@ -537,6 +548,22 @@ h1 {
 @media screen and (max-width:768px) {
     .market-card {
         width: calc(100% / 2);
+    }
+    .supply-wrapper h2 {
+      
+        margin: 1.875rem 0 2rem 0;
+        padding: 0px 2rem;
+    }
+    .supply-card-wrapper h4 {
+        padding: 0rem 1rem;
+        margin-bottom: 10px;
+
+    }
+    .supply-features {
+        margin: 10px 0px !important;
+    }
+    .newsletter-wrapper h3 {
+        padding: 0 1rem;
     }
 }
 
