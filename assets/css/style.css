@@ -153,6 +153,7 @@ h1 {
 /* about us section css starts here  */
 #about-us {
     padding: 6.875rem 0px;
+    overflow-x:  hidden;
 }
 
 .about-content h2 {
@@ -173,6 +174,7 @@ h1 {
 
 .technology {
     margin-top: 90px;
+    overflow-x: hidden;
 }
 
 .technology-content h2 {
@@ -331,7 +333,6 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 0px 100px;
-    position: relative;
 }
 
 .feature-card {
@@ -371,7 +372,9 @@ h1 {
     left: 4.5rem;
     right: 0;
 } */
-
+#inventory {
+    overflow-x: hidden;
+}
 .inventory {
     margin-top: 250px;
 }
@@ -554,6 +557,18 @@ h1 {
 .logo-social img {
     max-width: 100%;
 }
+
+/* new css  */
+/* .navbar-expand-lg .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: 30px;
+}
+.w-100 {
+    width: auto ;
+} */
 
 /* media query  */
 @media screen and (max-width:768px) {
