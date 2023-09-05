@@ -102,6 +102,9 @@ h1 {
 }
 
 /* banner css starts here  */
+#banner {
+    overflow-x: none;
+}
 .navbar {
     display: flex;
     gap: 6.313rem;
