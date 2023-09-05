@@ -59,10 +59,10 @@ html {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: lightblue;
+    background-color: #80d0eb;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 25px;
     /* margin-top: 90px; */
   }
   /* .side-main {
@@ -74,8 +74,9 @@ html {
   .sidenav  ul li a {
     padding: 8px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
     display: block;
     transition: 0.3s;
   }
@@ -90,10 +91,19 @@ html {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    text-decoration: none;
+    color: #fff;
   }
-  /* .Toggle {
-    display: none;
-  } */
+  .Toggle {
+    color: #fff;
+  }
+  .sidenav-logo img {
+    margin-bottom: 25px;
+  }
+  .sidenav-btn {
+    margin-top: 20px;
+    margin-left: 0px !important;
+  }
  
 h1 {
     color: var(--white);
@@ -677,6 +687,9 @@ h1 {
     .navbar-items {
         display: none;
     }
+    #features {
+        height: 600px;
+    }
 }
 @media screen and (max-width: 480px) {
     .market-card {
@@ -685,9 +698,14 @@ h1 {
     #features {
         height: 500px;
     }
-    /* .Toggle {
-        display: block;
-    } */
-  
+    .Toggle {
+        position: absolute;
+        right: 0;
+        top: 25px;
+    }
+    #features {
+        height: 900px;
+    }
+    
 
 }
